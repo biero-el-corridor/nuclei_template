@@ -1,4 +1,4 @@
-id: Detect_Siemens_LOGO_8_PLC
+id: Detect_SIEMENS_SIMATIC_HMI_Miniweb_login_panel
 
 info:
   name: find up simeens logo! 8 web panel
@@ -7,15 +7,15 @@ info:
   
 http:
   - method: GET
-    path:
-      - "{{BaseURL}}/logo_login.shtm?!App-Language="
 
+    path:
+      - "http://{{Host}}/StatusDetails.html"
     matchers-condition: and
     matchers:
       - type: status
         status:
            - 200
            condition: and
-      - type: word
-        part: body
-            - "ReadMe OSS"
+      - type: dsl
+        dsl:
+          - "contains(body,'linke Spalte Navigationsbereich')"

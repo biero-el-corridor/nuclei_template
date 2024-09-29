@@ -1,8 +1,8 @@
-id: find_unprotected_ETIC_login_page
+id: find-unprotected-ETIC-login-page
 info:
-  name: find up IMORAL telecom unprotected web panel
+  name: find up etid telecom unprotected web panel
   author: biero-el-corridor
-  severity: info
+  severity: high
 
 http:
   - method: GET
