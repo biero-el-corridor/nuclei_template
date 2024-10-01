@@ -2,10 +2,10 @@ id: detect-defaul-config-cpppo-EthernetIP-CIP-honeypot
 
 info:
   name: detect default configurations for cpppo honeypot
-  author: biero
+  author: biero-el-corridor
   severity: info
   description: |
-    Default configurations of the cpppo python parser.
+    Default configurations of the cpppo python Ethernet/IP CIP parser.
   metadata:
     max-request: 2
     vendor: alan bradley

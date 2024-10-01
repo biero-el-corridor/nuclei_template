@@ -1,20 +1,20 @@
 # nuclei_template
-Personal collections of nuclei custom template. 
+Personal collection of Nuclei custom templates.
 
-List of my written nuclei custom template , some are http focus , other are TCP focus. 
+List of my written Nuclei custom templates; some are HTTP-focused, others are TCP-focused.
 
-Oriented around the ICS, PLC, and CPS monitoring world. 
+Oriented around the ICS, PLC, and CPS monitoring world.
 
+### Current Templates
 
-curent Template 
-
-| name                                         | categorie                  | purpose                                                                           |
+| name                                         | category                  | purpose                                                                           |
 |----------------------------------------------|----------------------------|-----------------------------------------------------------------------------------|
-| Ethernet_IP_CIP_conpot_default_config        | honeypot detection         | compare the defualt configurations of a conpot honeypot base on the cpppo project |
-| snap7_honeypot_default_config                | honeypot detection         | detect default config snap7                                                       |
+| Ethernet_IP_CIP_conpot_default_config        | honeypot detection         | Compare the default configurations of a conpot honeypot based on the cpppo project |
+| snap7_honeypot_default_config                | honeypot detection         | Detect default config of snap7                                                       |
 | ETIC_telecom_router_login_page               | login page detection       |                                                                                   |
 | Siemens_LOGO_login_page                      | login page detection       |                                                                                   |
 | SIEMENS_SIMATIC_HMI_Miniweb_panel            | login page detection       |                                                                                   |
+|CAE_Monitoring_page |monitoring page| found the monitoring page aof italian base CAE monitoring system (login page linked in the /cfg/ path)|
 | ETIC_telecom_unprotected_admin_panel         | unprotected panel          |                                                                                   |
-| LOYETC_PLC_defaul_password                   | Default password detection | detect defualt password on the LLOYTEC PLC family                                 |
-| SIEMENS_SIMATIC_HMI_Miniweb_default_password | Default password detection | detect default password on thr SIEMENS SIMATIC Miniweb server                     |
+| LOYETC_PLC_default_password                   | Default password detection | Detect default password on the LOYTEC PLC family                                 |
+| SIEMENS_SIMATIC_HMI_Miniweb_default_password | Default password detection | Detect default password on the SIEMENS SIMATIC Miniweb server                     |

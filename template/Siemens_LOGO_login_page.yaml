@@ -14,8 +14,8 @@ http:
     matchers:
       - type: status
         status:
-           - 200
-           condition: and
+          - 200
+        condition: and
       - type: word
         part: body
-            - "ReadMe OSS"
+          - "ReadMe OSS"
