@@ -1,7 +1,7 @@
-id: detect-defaul-config-cpppo-EthernetIP-CIP-honeypot
+id: Detect_defaul_config_cpppo_EthernetIP_CIP_honeypot
 
 info:
-  name: detect default configurations for cpppo honeypot
+  name: Detect default configurations for cpppo honeypot
   author: biero-el-corridor
   severity: info
   description: |

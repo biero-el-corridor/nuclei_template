@@ -2,7 +2,7 @@ id: detect-defaul-config-honeypot-snap7
 
 info:
   name: detect default configurations for snap7 honeypot
-  author: biero
+  author: biero-el-corridor
   severity: info
   description: |
     Default configurations of the snap7 python parser.
