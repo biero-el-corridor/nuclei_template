@@ -1,0 +1,23 @@
+id: CAE_Monitoring_page
+
+info:
+  name: find up OSASI login panel
+  author: biero-el-corridor
+  severity: low
+  description: |
+    can been found with the shodan query "http.favicon.hash:-1887636248"
+
+http:
+  - method: GET
+    path:
+      - "http://{{Host}}/users/login"
+    matchers-condition: and
+    matchers:
+      - type: status
+        status:
+          - 200
+        condition: and
+      - type: word
+        words: 
+          - "/img/osasil_logo_f.png"
+        part: body
