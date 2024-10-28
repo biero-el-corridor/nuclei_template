@@ -1,0 +1,27 @@
+id: WAGO_web_based_management_panel
+
+info:
+  name: find up WAGO web based management panel
+  author: biero-el-corridor
+  severity: low
+  tags: wago,monitoring_panel
+  description: |
+      can been found with the shodan query "title:"WAGO Ethernet Web-based Management" , website 
+
+  
+http:
+  - method: GET
+    path:
+      - "{{Host}}/wbm/index.php"
+
+    matchers-condition: and
+    matchers:
+      - type: status
+        status:
+          - 200
+        condition: and
+
+      - type: word
+        words: 
+          - "Web-based Management"
+        part: body
