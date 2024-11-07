@@ -1,0 +1,34 @@
+id: S7_enum
+
+info:
+  name: enumerate s7 plc
+  author: biero-el-corridor
+  severity: info
+  description: |
+    Enumerate info about siemens PLC.
+  metadata:
+    max-request: 2
+    vendor: siemens
+    product: s7comm
+  tags: ICS,s7comm
+
+tcp:
+  - host:
+      - "{{Host}}:102"
+    inputs:
+      - data: "0300001611e00000001400c1020100c2020102c0010a"
+        type: hex
+        read: 200
+        name: zero
+      - data: "0300001902f08032010000000000080000f0000001000101e0"
+        type: hex
+        read: 200
+        name: first
+      - data: "0300002102f080320700000000000800080001120411440100ff09000400110001"
+        type: hex
+        read: 200
+        name: second
+      - data: "0300002102f080320700000000000800080001120411440100ff090004001c0001"
+        type: hex 
+        read: 200
+        read: last

@@ -39,7 +39,9 @@ NOTE: the readme is categorisied by purpose (Honeypot detection , login page det
 
 | name                                         | purpose                                                                           |
 |-----------------------------------------------|-----------------------------------------------------------------------------------|
-| CAE_Monitoring_page                            | found the monitoring page aof italian base CAE monitoring system (login page linked in the /cfg/ path)|
+| CAE_Monitoring_page                            | Found the monitoring page aof italian base CAE monitoring system (login page linked in the /cfg/ path)|
+| WAGO_web_based_management_panel                | Find default management view of the WAGO  Web based Management            |
+
 
 ---
 
@@ -58,7 +60,7 @@ NOTE: the readme is categorisied by purpose (Honeypot detection , login page det
 |-----------------------------------------------|-----------------------------------------------------------------------------------|
 | LOYETC_PLC_default_password                   | Detect default password on the LOYTEC PLC family                                 |
 | SIEMENS_SIMATIC_HMI_Miniweb_default_password  | Detect default password on the SIEMENS SIMATIC Miniweb server                     |
-| SIEMENS_SIMATIC_HMI_Miniweb_default_password  | Detect default password on the SIEMENS SIMATIC Miniweb server                     |
-| OSASI_default_credential                                                |
+| OSASI_default_credential                      |
+| WAGO_default_password_web_panel               | Detect default password on the  Web based Management page                        |
 
 ---

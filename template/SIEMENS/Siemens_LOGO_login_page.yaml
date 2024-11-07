@@ -8,7 +8,7 @@ info:
 http:
   - method: GET
     path:
-      - "{{BaseURL}}/logo_login.shtm?!App-Language="
+      - "{{Hostname}}/logo_login.shtm?!App-Language="
 
     matchers-condition: and
     matchers:
