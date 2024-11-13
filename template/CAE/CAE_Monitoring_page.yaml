@@ -1,11 +1,11 @@
 id: CAE_Monitoring_page
 
 info:
-  name: find up CAE monitoring web panel
+  name: Find CAE monitoring web panel
   author: biero-el-corridor
   severity: low
   description: |
-    can been found with the shodan query "http.favicon.hash:-268676052"
+    Can be found with the following Shodan query "http.favicon.hash:-268676052"
 
 http:
   - method: GET

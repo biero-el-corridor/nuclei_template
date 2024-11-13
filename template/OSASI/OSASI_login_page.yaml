@@ -5,7 +5,7 @@ info:
   author: biero-el-corridor
   severity: low
   description: |
-    can been found with the shodan query "http.favicon.hash:-1887636248"
+    Can be found with the following Shodan query "http.favicon.hash:-1887636248".
 
 http:
   - method: GET

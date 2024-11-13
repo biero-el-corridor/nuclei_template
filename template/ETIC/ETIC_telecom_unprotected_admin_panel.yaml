@@ -1,6 +1,6 @@
 id: find-unprotected-ETIC-login-page
 info:
-  name: Find up etic telecom unprotected web panel.
+  name: Find ETIC telecom unprotected web panel.
   author: biero-el-corridor
   severity: high
 

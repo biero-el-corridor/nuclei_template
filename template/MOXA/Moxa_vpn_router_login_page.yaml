@@ -1,11 +1,11 @@
 id: Moxa_vpn_router_login_page
 
 info:
-  name: find up Moxa VPN router login pages
+  name: Find Moxa VPN router login pages
   author: biero-el-corridor
   severity: low
   description: |
-    can been found with the shodan query "http.favicon.hash:-234487373 "
+    Can be found with the following Shodan query "http.favicon.hash:-234487373"
 
 http:
   - method: GET
